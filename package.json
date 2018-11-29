@@ -1,0 +1,21 @@
+{
+    "name": "snazzy-colors-theme",
+    "displayName": "Snazzy colors theme",
+    "description": "Pretty theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.29.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Snazzy",
+                "uiTheme": "vs-dark",
+                "path": "./themes/snazzy-color-theme.json"
+            }
+        ]
+    }
+}
