@@ -16,13 +16,13 @@
 		"editor.wordHighlightStrongBackground": "#282a3642",
 		"editor.wordHighlightBorder": "#c4c4cabb",
 		"editor.wordHighlightStrongBorder": "#c4c4cabb",
-		"editorBracketMatch.background": "#57c7ff65",
-		"editorBracketMatch.border": "#9aedfe",
-		"editorCursor.foreground": "#97979b",
+		"editorBracketMatch.background": "#282a36",
+		"editorBracketMatch.border": "#5af78e",
+		"editorCursor.foreground": "#ff6ac1",
 		"editorGroup.dropBackground": "#232631",
 		"editorGroupHeader.tabsBackground": "#232631",
 		"editorIndentGuide.background": "#616263",
-		"editorIndentGuide.activeBackground": "#a8aeb3",
+		"editorIndentGuide.activeBackground": "#868f96",
 		"editorLineNumber.foreground": "#616263",
 		"editorLink.activeForeground": "#ff5c57",
 		"editorWhitespace.foreground": "#616263",
@@ -439,7 +439,10 @@
 		},
 		{
 			"name": "Punctuation accessor with functions",
-			"scope": "meta.function-call.ts punctuation.accessor",
+			"scope": [
+				"meta.function-call.ts punctuation.accessor",
+				"meta.function-call.js punctuation.accessor"
+			],
 			"settings": {
 				"foreground": "#57c7ff"
 			}
@@ -487,6 +490,13 @@
 			],
 			"settings": {
 				"foreground": "#ff6ac1"
+			}
+		},
+		{
+			"name": "TypeScript key-value separator",
+			"scope": "punctuation.separator.key-value.ts",
+			"settings": {
+				"foreground": "#eff0eb"
 			}
 		},
 		{
