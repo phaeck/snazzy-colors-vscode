@@ -1,7 +1,7 @@
 {
     "name": "snazzy-colors-theme",
     "displayName": "Snazzy colors theme",
-    "description": "Pretty theme",
+    "description": "Try it. Like it.",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.29.0"
